@@ -1,18 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* shared style start */
+
 * {
     padding: 0;
     margin: 0;
+
 }
 
 body {
     font-family: "Fira Sans", sans-serif;
+    margin: 0 136px;
+    background: rgba(245, 245, 245, 1);
 }
 
+/*shared style end*/
+
+/* nav part start */
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 0 136px;
 
 }
 
@@ -39,3 +46,284 @@ nav {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.btn-primary {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    border-radius: 8px;
+    background: rgba(0, 106, 80, 1);
+    padding: 15px 29px 15px 29px;
+    border: none;
+}
+
+.btn-sec {
+    padding: 9.35px 17px 9.35px 17px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 13.6px;
+    font-weight: 600;
+    line-height: 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+.primary-title {
+    color: rgba(14, 14, 14, 1);
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.card-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+/*nav part end*/
+
+
+/* banner part start */
+.banner-container {
+    border-radius: 24px;
+    background: rgba(198, 228, 214, 1);
+    padding: 68px 51px 68px 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 46px;
+}
+
+
+.banner-sub-title {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.banner-title {
+    color: rgba(14, 14, 14, 1);
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 56px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+
+}
+
+
+/*banner part end*/
+
+/* pillar part start */
+
+.pillar-container {
+    margin-top: 68px;
+    margin-bottom: 68px;
+}
+
+
+.pillar-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.pillar-card {
+    width: 256px;
+    height: 207px;
+    box-sizing: border-box;
+    border: 1px solid rgba(65, 20, 20, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    padding: 20px;
+}
+
+
+/* pillar part end */
+
+/* vision part start */
+.vision-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.vision-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.vision-card1 {
+
+    width: 348px;
+    height: 276px;
+    padding: 27px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.vision-card2 {
+
+    width: 348px;
+    height: 276px;
+    padding: 27px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(198, 228, 214, 1);
+}
+
+.vision-card3 {
+
+    width: 348px;
+    height: 276px;
+    padding: 27px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(247, 235, 207, 1);
+}
+
+.btn-bg1 {
+    background: rgba(84, 144, 245, 1);
+}
+
+.btn-bg2 {
+    background: rgba(9, 161, 92, 1);
+}
+
+.btn-bg3 {
+    background: rgba(255, 194, 57, 1);
+}
+
+/* vision part end */
+
+/* quote part start*/
+.quote-container {
+    position: relative;
+    /* background-image: url('/assets/quote-bg.png');
+    background-repeat: no-repeat; */
+    padding: 40.4px 20.4px 40.4px 20.4px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.quote-img {
+    position: absolute;
+    top: 15px;
+}
+
+.card-sub-title {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* quote part end*/
+
+/* opanion part star0t */
+.opanion-container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.opanion-title {
+    margin-bottom: 0;
+}
+
+.table-container {
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+    text-align: start;
+    padding: 20px;
+}
+
+th {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(198, 228, 214, 1);
+    padding: 20px;
+    text-align: start;
+
+}
+
+select {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 1);
+    border-radius: 4px;
+    background: rgba(198, 228, 214, 1);
+    padding: 9px 12px 9px 12px;
+    margin-left: 25px;
+}
+
+/* opanion part end */
+
+/* news part start */
+
+.news-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.news-card {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 30px;
+    padding: 48px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 1);
+    margin-bottom: 20px;
+}
+
+.news-img {
+    border-radius: 24px;
+}
+
+.news-caption{
+line-height: 20px;
+color: rgba(14, 14, 14, 0.7);
+font-size: 13px;
+}
+
+.time{
+    padding-left: 12px;
+}
+/* news part end */
