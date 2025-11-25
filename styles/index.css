@@ -14,7 +14,7 @@ body {
     background: rgba(245, 245, 245, 1);
 }
 
-.ta{
+.ta {
     text-align: center;
 }
 
@@ -334,7 +334,7 @@ select {
 /* news part end */
 
 /* Donate part start */
-.donate-container{
+.donate-container {
     padding: 0 90px;
 }
 
@@ -348,13 +348,13 @@ select {
 }
 
 .donate-btn {
-    
+
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgba(255, 255, 255, 1);
     padding: 30px;
-    
+
 
 }
 
@@ -365,12 +365,13 @@ select {
 }
 
 .donate-input-container {
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 .dnt-inpt {
     width: 830px;
     box-sizing: border-box;
@@ -382,8 +383,45 @@ select {
     border: none;
 }
 
-.dnt-btn {
-    
-}
 
 /* Donate part end */
+
+
+/* Subscribe part start */
+.subscribe-container {
+    padding: 80px 100px 80px 100px;
+    border-radius: 24px;
+    background: rgba(198, 228, 214, 1);
+    margin-top: 68px;
+    margin-bottom: 68px;
+}
+
+.subscribe-inpt-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn-subs{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    border-radius: 0 8px 8px 0;
+    background: rgba(0, 106, 80, 1);
+    padding: 15px 29px 15px 29px;
+    border: none;
+}
+
+.sbs-inpt{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    border-radius: 8px 0 0 8px;
+    background: rgba(255, 255, 255, 1);
+    padding: 15px 240px 15px 30px;
+    border: none;
+}
+/* Subscribe part end */
